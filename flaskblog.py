@@ -10,5 +10,9 @@ def home():
 def about():
         return "<h1>About Page</h1>"
 
+@app.route("/alert")
+def about():
+        return "<h1>Alert Page</h1>"
+
 if __name__ == '__main__':
     app.run(debug=True)
