@@ -11,7 +11,7 @@ def about():
         return "<h1>About Page</h1>"
 
 @app.route("/profile")
-def about():
+def profile():
         return "<h1>Profile Page</h1>"
 
 if __name__ == '__main__':
